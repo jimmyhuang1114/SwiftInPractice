@@ -14,16 +14,25 @@
 			remoteGlobalIDString = 15CC14231A2300D500E88812;
 			remoteInfo = DemoNilFaultInObjecticeC;
 		};
+		15CC144F1A23025200E88812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15CC14411A23025100E88812;
+			remoteInfo = DemoOptionals;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoNilFaultInObjecticeC.xcodeproj; path = DemoNilFaultInObjecticeC/DemoNilFaultInObjecticeC.xcodeproj; sourceTree = "<group>"; };
+		15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoOptionals.xcodeproj; path = DemoOptionals/DemoOptionals.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		15CC14131A22FE4D00E88812 = {
 			isa = PBXGroup;
 			children = (
+				15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */,
 				15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */,
 			);
 			sourceTree = "<group>";
@@ -32,6 +41,14 @@
 			isa = PBXGroup;
 			children = (
 				15CC14321A2300D600E88812 /* DemoNilFaultInObjecticeC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CC144C1A23025100E88812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CC14501A23025200E88812 /* DemoOptionals */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +75,10 @@
 					ProductGroup = 15CC142E1A2300D500E88812 /* Products */;
 					ProjectRef = 15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */;
 				},
+				{
+					ProductGroup = 15CC144C1A23025100E88812 /* Products */;
+					ProjectRef = 15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -71,6 +92,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = DemoNilFaultInObjecticeC;
 			remoteRef = 15CC14311A2300D600E88812 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		15CC14501A23025200E88812 /* DemoOptionals */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DemoOptionals;
+			remoteRef = 15CC144F1A23025200E88812 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
