@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		15CC14311A2300D600E88812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15CC14231A2300D500E88812;
+			remoteInfo = DemoNilFaultInObjecticeC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoNilFaultInObjecticeC.xcodeproj; path = DemoNilFaultInObjecticeC/DemoNilFaultInObjecticeC.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		15CC14131A22FE4D00E88812 = {
 			isa = PBXGroup;
 			children = (
+				15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		15CC142E1A2300D500E88812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CC14321A2300D600E88812 /* DemoNilFaultInObjecticeC */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +53,27 @@
 			);
 			mainGroup = 15CC14131A22FE4D00E88812;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15CC142E1A2300D500E88812 /* Products */;
+					ProjectRef = 15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		15CC14321A2300D600E88812 /* DemoNilFaultInObjecticeC */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DemoNilFaultInObjecticeC;
+			remoteRef = 15CC14311A2300D600E88812 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		15CC14181A22FE4D00E88812 /* Debug */ = {
