@@ -14,7 +14,6 @@ int main(int argc, const char * argv[]) {
         DayInWeek *dayInWeek = [[DayInWeek alloc] init];
         NSString *todayDay = [dayInWeek translateDay:@"Satt"];
         NSString *todayIs = @"今天是";
-        //NSString *show = [todayIs stringByAppendingString:todayDay]; // <= run time error happens
         if (todayDay != nil) {
             NSString *show = [todayIs stringByAppendingString:todayDay];
             NSLog(@"%@", show);

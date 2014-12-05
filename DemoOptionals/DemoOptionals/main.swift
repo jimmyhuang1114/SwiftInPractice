@@ -11,7 +11,6 @@ import Foundation
 var dayInWeek: DayInWeek = DayInWeek()
 let todayDay: String? = dayInWeek.translateDay("Satt")      // return nil
 let todayIs = "今天是"
-//let show = todayIs + todayDay!                            //<= forced unwrapping and run time error
 var show: String
 if let checkTodayDay = todayDay {                           //<= optinals binding
     show = todayIs + checkTodayDay
