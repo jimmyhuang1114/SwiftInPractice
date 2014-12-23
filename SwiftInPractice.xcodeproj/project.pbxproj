@@ -28,12 +28,20 @@
 			remoteGlobalIDString = 15CC14411A23025100E88812;
 			remoteInfo = DemoOptionals;
 		};
+		15D260591A4942FE00F09664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D260551A4942FC00F09664 /* DemoClosure.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15D2604B1A4942FC00F09664;
+			remoteInfo = DemoClosure;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		159384C61A305A2400337FB0 /* DemoTypeCasting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoTypeCasting.xcodeproj; path = DemoTypeCasting/DemoTypeCasting.xcodeproj; sourceTree = "<group>"; };
 		15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoNilFaultInObjecticeC.xcodeproj; path = DemoNilFaultInObjecticeC/DemoNilFaultInObjecticeC.xcodeproj; sourceTree = "<group>"; };
 		15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoOptionals.xcodeproj; path = DemoOptionals/DemoOptionals.xcodeproj; sourceTree = "<group>"; };
+		15D260551A4942FC00F09664 /* DemoClosure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoClosure.xcodeproj; path = DemoClosure/DemoClosure.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -48,6 +56,7 @@
 		15CC14131A22FE4D00E88812 = {
 			isa = PBXGroup;
 			children = (
+				15D260551A4942FC00F09664 /* DemoClosure.xcodeproj */,
 				159384C61A305A2400337FB0 /* DemoTypeCasting.xcodeproj */,
 				15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */,
 				15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */,
@@ -70,6 +79,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		15D260561A4942FC00F09664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D2605A1A4942FE00F09664 /* DemoClosure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
@@ -88,6 +105,10 @@
 			mainGroup = 15CC14131A22FE4D00E88812;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 15D260561A4942FC00F09664 /* Products */;
+					ProjectRef = 15D260551A4942FC00F09664 /* DemoClosure.xcodeproj */;
+				},
 				{
 					ProductGroup = 15CC142E1A2300D500E88812 /* Products */;
 					ProjectRef = 15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */;
@@ -127,6 +148,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = DemoOptionals;
 			remoteRef = 15CC144F1A23025200E88812 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		15D2605A1A4942FE00F09664 /* DemoClosure */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DemoClosure;
+			remoteRef = 15D260591A4942FE00F09664 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
