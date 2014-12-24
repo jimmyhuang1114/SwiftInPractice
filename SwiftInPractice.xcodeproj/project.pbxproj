@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		1507D40A1A4A6C1A002F9D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1507D4051A4A6C18002F9D83 /* DemoActionSheetAndAlert.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1507D3E01A4A6C18002F9D83;
+			remoteInfo = DemoActionSheetAndAlert;
+		};
+		1507D40C1A4A6C1A002F9D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1507D4051A4A6C18002F9D83 /* DemoActionSheetAndAlert.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1507D3F51A4A6C18002F9D83;
+			remoteInfo = DemoActionSheetAndAlertTests;
+		};
 		159384CC1A305A2500337FB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 159384C61A305A2400337FB0 /* DemoTypeCasting.xcodeproj */;
@@ -38,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1507D4051A4A6C18002F9D83 /* DemoActionSheetAndAlert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoActionSheetAndAlert.xcodeproj; path = DemoActionSheetAndAlert/DemoActionSheetAndAlert.xcodeproj; sourceTree = "<group>"; };
 		159384C61A305A2400337FB0 /* DemoTypeCasting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoTypeCasting.xcodeproj; path = DemoTypeCasting/DemoTypeCasting.xcodeproj; sourceTree = "<group>"; };
 		15CC142D1A2300D500E88812 /* DemoNilFaultInObjecticeC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoNilFaultInObjecticeC.xcodeproj; path = DemoNilFaultInObjecticeC/DemoNilFaultInObjecticeC.xcodeproj; sourceTree = "<group>"; };
 		15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoOptionals.xcodeproj; path = DemoOptionals/DemoOptionals.xcodeproj; sourceTree = "<group>"; };
@@ -45,6 +60,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		1507D4061A4A6C18002F9D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1507D40B1A4A6C1A002F9D83 /* DemoActionSheetAndAlert.app */,
+				1507D40D1A4A6C1A002F9D83 /* DemoActionSheetAndAlertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		159384C71A305A2400337FB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +80,7 @@
 		15CC14131A22FE4D00E88812 = {
 			isa = PBXGroup;
 			children = (
+				1507D4051A4A6C18002F9D83 /* DemoActionSheetAndAlert.xcodeproj */,
 				15D260551A4942FC00F09664 /* DemoClosure.xcodeproj */,
 				159384C61A305A2400337FB0 /* DemoTypeCasting.xcodeproj */,
 				15CC144B1A23025100E88812 /* DemoOptionals.xcodeproj */,
@@ -106,6 +131,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 1507D4061A4A6C18002F9D83 /* Products */;
+					ProjectRef = 1507D4051A4A6C18002F9D83 /* DemoActionSheetAndAlert.xcodeproj */;
+				},
+				{
 					ProductGroup = 15D260561A4942FC00F09664 /* Products */;
 					ProjectRef = 15D260551A4942FC00F09664 /* DemoClosure.xcodeproj */;
 				},
@@ -129,6 +158,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1507D40B1A4A6C1A002F9D83 /* DemoActionSheetAndAlert.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DemoActionSheetAndAlert.app;
+			remoteRef = 1507D40A1A4A6C1A002F9D83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1507D40D1A4A6C1A002F9D83 /* DemoActionSheetAndAlertTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DemoActionSheetAndAlertTests.xctest;
+			remoteRef = 1507D40C1A4A6C1A002F9D83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		159384CD1A305A2500337FB0 /* DemoTypeCasting */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
