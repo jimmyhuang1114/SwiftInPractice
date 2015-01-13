@@ -102,7 +102,7 @@ println("CASE 12: \(squareArray)")
 typealias increamentOneUnit = () -> Int
 
 func increamentor(start from: Int, each amount: Int) -> increamentOneUnit {
-    var total = from;
+    var total = from
     return {
         total += amount
         return total
