@@ -1,4 +1,4 @@
-SwiftInPractice
+Swift In Practice
 ===============
 
 Demo swift in practical examples. Help you understand the basics of Swift. List topics that are included in this repository.
