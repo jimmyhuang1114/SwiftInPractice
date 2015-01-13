@@ -8,3 +8,4 @@ Demo swift in practical examples. Help you understand the basics of Swift. List 
 3. DemoTypeCasting: Demo how to use "is", "as?" and "as" for type casting.
 4. DemoClosure: This part presents two major features, Closure Expression and Capturing Values, of closure in Swift.
 5. DemoActionSheetAndAlert: In action sheet's action, we demo how to write with closure that can be its handler.
+6. DemoStringAndCharacter: It includes several simple and small examples to demostrate how to use String type in Swift.
