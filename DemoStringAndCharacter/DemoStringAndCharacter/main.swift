@@ -58,7 +58,6 @@ if empty.isEmpty {
 
 // 3. Counting Characters
 println(countElements(str))                     // str: Hello Swift has 11 characters
-
 let sayHiToTokyoTower = "Say Hi! 🗼"
 println(countElements(sayHiToTokyoTower))       // sayHiToTokyoTower has 9 characters
 
@@ -127,14 +126,20 @@ let coffee = "星巴克家常咖啡"
 let homeChar = coffee[index]
 println(homeChar)                                   // result: 家
 
+let takeRocketToTokyo = "我要搭🚀去🗼"
+let transport = takeRocketToTokyo[index]            // result: bad result
+println(transport)
+
+let index2 = advance(takeRocketToTokyo.startIndex, 3)  // result: rocket emoji
+let transport2 = takeRocketToTokyo[index2]
+println(transport2)
+
 // string's range
 let startIndex = advance(chars.startIndex, 3)
 let endIndex = advance(startIndex, 3)
 let range = startIndex...endIndex
 let someChars = chars[range]                        // result: defg
-let someCoffee = coffee[range]                      // result: 家常咖啡
 println(someChars)
-println(someCoffee)
 
 // substringToIndex
 println(chars.substringToIndex(index))
