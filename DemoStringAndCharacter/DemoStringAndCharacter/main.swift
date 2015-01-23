@@ -121,7 +121,6 @@ let chars = "abcdefghij"
 let index = advance(chars.startIndex, 3)
 let dChar = chars[index]
 println(dChar)                                      // result: d
-
 let coffee = "星巴克家常咖啡"
 let homeChar = coffee[index]
 println(homeChar)                                   // result: 家
@@ -142,12 +141,12 @@ let someChars = chars[range]                        // result: defg
 println(someChars)
 
 // substringToIndex
-println(chars.substringToIndex(index))
-println(coffee.substringToIndex(index))
+println(chars.substringToIndex(index))              // result: abc
+println(coffee.substringToIndex(index))             // result: 星巴克
 
 // substringFromIndex
-println(chars.substringFromIndex(index))
-println(coffee.substringFromIndex(index))
+println(chars.substringFromIndex(index))            // result: defghij
+println(coffee.substringFromIndex(index))           // result: 家常咖啡s
 
 // 7. Uppercase and lowercase of String
 println(str.uppercaseString)                        // result: HELLO SWIFT
